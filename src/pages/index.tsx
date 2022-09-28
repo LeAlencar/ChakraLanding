@@ -1,7 +1,7 @@
 import { Center, Container, Flex, Heading, Stack, Text } from '@chakra-ui/react'
 import type { NextPage } from 'next'
-import { Header } from './components/Header'
-import { PurchaseButton } from './components/PurchaseButton'
+import Header from './components/Header'
+import PurchaseButton from './components/PurchaseButton'
 
 const Home: NextPage = () => {
   return (

@@ -1,9 +1,9 @@
 import { Search2Icon } from "@chakra-ui/icons"
 import { Button, Flex, Icon, IconButton, Text, useBreakpointValue } from "@chakra-ui/react"
-import { Logo } from "./Logo"
+import Logo from "./Logo"
 
 
-export const Header = () => {
+const Header = () => {
 
   return (
     <Flex
@@ -47,3 +47,5 @@ export const Header = () => {
     </Flex>
   )
 }
+
+export default Header
